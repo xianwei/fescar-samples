@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication(scanBasePackages = "com.alibaba.fescar.samples.integration.call")
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 @EnableDubbo(scanBasePackages = "com.alibaba.fescar.samples.integration.call")
 public class DubboGtsFescarExampleApplication {
 

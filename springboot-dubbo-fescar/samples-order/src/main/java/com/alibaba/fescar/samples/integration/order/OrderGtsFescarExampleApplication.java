@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication(scanBasePackages = "com.alibaba.fescar.samples.integration.order")
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 @MapperScan({"com.alibaba.fescar.samples.integration.order.mapper"})
 @EnableDubbo(scanBasePackages = "com.alibaba.fescar.samples.integration.order")
 public class OrderGtsFescarExampleApplication {
